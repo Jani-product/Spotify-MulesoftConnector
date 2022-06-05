@@ -77,6 +77,11 @@ output application/json
 ---
 read(payload,"application/json")
    
+   Tools/Softwares To Develop this
+   JDK version: 11
+   Maven version: 3.6.3
+   Eclipse ide for writing Java code/ prefer intellij idea if you are intersted with it, makes it more easy
+   Anypoint Studio: 7.12
   
   Made with 💗
   reach out to me for any concerns/ issue working with the connector, 
