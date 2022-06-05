@@ -1,0 +1,19 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:spotify="http://www.mulesoft.org/schema/mule/spotify"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+          http://www.mulesoft.org/schema/mule/spotify http://www.mulesoft.org/schema/mule/spotify/current/mule-spotify.xsd">
+
+    <spotify:config name="config" configId="configId">
+        <spotify:connection requiredParameter="aValue" />
+    </spotify:config>
+
+    <flow name="sayHiFlow">
+        <spotify:say-hi person="Mariano Gonzalez"/>
+    </flow>
+
+    <flow name="retrieveInfoFlow">
+        <spotify:retrieve-info config-ref="config"/>
+    </flow>
+
+</mule>
