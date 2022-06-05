@@ -20,14 +20,14 @@ once the build is success, open your anypoint studio, make sure the maven is con
   -add the dependency in the dependencies like this
 
 <dependency>
-			<groupId>com.spotify.muleConnector</groupId>
-			<artifactId>mulesoft-spotfy-connector</artifactId>
-			<version>3.0.6	</version>
-			<classifier>mule-plugin</classifier>
+	<groupId>com.spotify.muleConnector</groupId>
+	<artifactId>mulesoft-spotfy-connector</artifactId>
+	<version>3.0.6	</version>
+	<classifier>mule-plugin</classifier>
 </dependency>
 
 
-![it should look like](https://ibb.co/pjgmhn0)
+[![pomedited-xml.jpg](https://i.postimg.cc/3NbTSs1W/pomedited-xml.jpg)](https://postimg.cc/Fkc81n2Q)
 
 
    # - if the connector is not showing up in the pallette it refresh the project or restart the studio
